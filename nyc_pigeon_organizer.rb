@@ -1,8 +1,8 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
   result = {}
-  data.each {|key, value| 
+  data.each {|key, valueArr| 
     puts "#{key} is #{value}"
-    value
+    valueArr.each 
   }
 end
