@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
         if !result[pigeon].key?(key)
           result[pigeon][key] = []
         end
-        result[pigeon][key].push(valKey)
+        result[pigeon][key].push(valKey.to_s)
       }
     }
   }
