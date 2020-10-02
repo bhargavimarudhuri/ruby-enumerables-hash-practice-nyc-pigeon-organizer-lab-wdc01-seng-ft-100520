@@ -10,9 +10,12 @@ def nyc_pigeon_organizer(data)
       #puts "#{valKey} is #{pigeonArr}"
       # purple
       pigeonArr.each { |pigeon|
-        if result.key?(some_key)
-        result[pigeon] = {}
-        result[pigeon][key] = []
+        if !result.key?(pigeon)
+          result[pigeon] = {}
+        end
+        if !result[pigeon].key?(key)
+          result[pigeon][key] = []
+        end
         result[pigeon][key].push(valKey)
       }
     }
