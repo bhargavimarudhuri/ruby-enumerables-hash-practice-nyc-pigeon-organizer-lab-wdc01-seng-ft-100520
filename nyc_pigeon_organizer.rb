@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
       # purple
       pigeonArr.each { |pigeon|
         result[pigeon] = {}
-        result[pigeon][key] = 
+        result[pigeon][key] = []
       }
     }
   }
