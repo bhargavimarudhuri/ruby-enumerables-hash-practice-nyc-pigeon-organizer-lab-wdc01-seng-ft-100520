@@ -4,10 +4,10 @@ def nyc_pigeon_organizer(data)
   
   # piegon_data
   data.each {|key, valueArr| 
-    //puts "#{key} is #{valueArr}"
+    #puts "#{key} is #{valueArr}"
     # color
     valueArr.each { |valKey, pigeonArr|
-      //puts "#{valKey} is #{pigeonArr}"
+      #puts "#{valKey} is #{pigeonArr}"
       # purple
       pigeonArr.each { |pigeon|
         result[pigeon] = {}
