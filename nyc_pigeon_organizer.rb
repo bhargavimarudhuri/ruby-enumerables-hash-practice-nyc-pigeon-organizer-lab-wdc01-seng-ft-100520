@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
     # color
     valueArr.each { |valKey, piegonArr|
       puts "#{valKey} is #{piegonArr}"
-      # color
+      # purple
       piegonArr.each { |piegon|
         
       }
