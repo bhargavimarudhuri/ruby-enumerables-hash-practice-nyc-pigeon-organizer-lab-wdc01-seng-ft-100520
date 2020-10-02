@@ -6,11 +6,11 @@ def nyc_pigeon_organizer(data)
   data.each {|key, valueArr| 
     puts "#{key} is #{valueArr}"
     # color
-    valueArr.each { |valKey, piegonArr|
-      puts "#{valKey} is #{piegonArr}"
+    valueArr.each { |valKey, pigeonArr|
+      puts "#{valKey} is #{pigeonArr}"
       # purple
-      piegonArr.each { |piegon|
-        result[pigeion]
+      pigeonArr.each { |pigeon|
+        result[pigeon]
       }
     }
   }
