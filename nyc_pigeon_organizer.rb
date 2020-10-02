@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
       pigeonArr.each { |pigeon|
         result[pigeon] = {}
         result[pigeon][key] = []
-        result[pigeon][key].push()
+        result[pigeon][key].push(valKey)
       }
     }
   }
